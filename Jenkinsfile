@@ -6,7 +6,7 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        stage('echo') {
+        stage('echo info') {
             steps {
                 sh "echo 'Hello World!'"
             }
